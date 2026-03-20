@@ -1,8 +1,6 @@
 <!-- Trying to tighten up the schema -->
 <?xml version="1.0" encoding="utf-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-            elementFormDefault="qualified"
-            attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <xsd:element name="NationalParks">
     <xsd:complexType>
@@ -34,13 +32,13 @@
 
   <xsd:simpleType name="PhoneType">
     <xsd:restriction base="xsd:string">
-      <xsd:pattern value="\d{3}-\d{3}-\d{4}"/>
+      <xsd:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
     </xsd:restriction>
   </xsd:simpleType>
 
   <xsd:simpleType name="ZipType">
     <xsd:restriction base="xsd:string">
-      <xsd:pattern value="\d{5}"/>
+      <xsd:pattern value="[0-9]{5}"/>
     </xsd:restriction>
   </xsd:simpleType>
 
