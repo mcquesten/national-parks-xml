@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://mcquesten.github.io/national-parks-xml/NationalParks.xsd">
 
 <!-- ERROR 1: Change root to NationalPark -->
 <NationalPark> 
