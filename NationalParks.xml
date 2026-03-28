@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NationalParks
+    xmlns="http://mcquesten.github.io/national-parks-xml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+    xsi:schemaLocation="http://mcquesten.github.io/national-parks-xml NationalParks.xsd">
 
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://mcquesten.github.io/national-parks-xml"
+    targetNamespace="http://mcquesten.github.io/national-parks-xml"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>

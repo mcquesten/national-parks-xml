@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- ERROR 1: Change root to NationalPark -->
-<NationalPark> 
+<NationalPark
+    xmlns="http://mcquesten.github.io/national-parks-xml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://mcquesten.github.io/national-parks-xml NationalParks.xsd"> 
 <!-- <NationalParks>  -->
 
   <NationalPark Rating="4.9">
